@@ -1,5 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
 import React, { useState, useRef, useEffect } from 'react';
+import Image from 'next/image';
 import { BellOff } from 'lucide-react';
 import { Notification, NotificationType, useNotifications } from '@/providers/Notificationprovider';
 import { EmptyState } from '@/components';
